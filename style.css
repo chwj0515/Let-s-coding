@@ -28,7 +28,7 @@ body{
 #grid #article{
   pedding-left:25px;
 }
-@media(max-width:800px){
+@media(max-width:560px){
   #grid{
     display:block;
   }
