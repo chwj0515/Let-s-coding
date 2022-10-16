@@ -2,6 +2,9 @@ a {
   color:black;
   text-decoration: none;
 }
+a:hover{
+  color:green
+}
 h1 {
   font-size:45px;
   text-align: center;
@@ -16,6 +19,7 @@ ul{
   padding:20px;
 }
 body{
+  font: italic 16px "Fira Sans", serif;
   margin:3
 }
 #grid{
@@ -36,6 +40,7 @@ body{
     border-right:none;
   }
   h1{
-    border-bottom:none;
+    display:block;
+    border-bottom:2px solid gray;
   }
 }
