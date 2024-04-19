@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mindHub</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="openSignInModal">login</button>
+    <button id="openSignUpModal">Singup</button>
+    <div id="login" class="hidden">
+        <div class="modal_overlay"></div>
+            <form>
+                <h3>Login Here</h3>
+    
+                <label for="username">Username</label>
+                <input type="email" placeholder="Email" id="signInEmail">
+    
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="signInPassword">
+    
+                <button type="submit" id="signInButton">Log In</button>
+            </form>
+    </div>
+    <div id="signup" class="hidden">
+        <div class="modal_overlay"></div>
+            <form>
+                <h3>signup Here</h3>
+
+                <label for="username">Username</label>
+                <input type="email" placeholder="Email" id="signUpEmail">
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="signUpPassword">
+
+                <button type="submit" id="signUpButton">Sing Up</button>
+            </form>
+</div>
+    <script src="modal.js"></script>
+    <script type="module" src="login.js"> </script>
+</body>
+</html>
